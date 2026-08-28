@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cobranza y Gestión de Cartera (A/R)</title>
+    <style>
+  body{
+    font-family: Georgia, 'Times New Roman', serif;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+    color: #000;
+    line-height: 1.5;
+    border: 1px solid #000;
+  }
+  header{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    padding: 18px 20px;
+    border-bottom: 1px solid #000;
+  }
+  .logo{
+    border:2px solid #000;
+    font-weight:bold;
+    font-size:22px;
+    padding: 4px 10px;
+    font-family: Arial, sans-serif;
+  }
+  header .titles{font-family: Arial, sans-serif; font-size: 14px;}
+  header .company{font-weight:bold;}
+  main{padding: 24px 20px 30px;}
+  h1{font-size: 26px; margin: 0 0 14px;}
+  h2{font-size: 19px; margin: 30px 0 6px;}
+  p{margin: 0 0 12px; font-size: 15px;}
+  .intro{font-size:15px; margin-bottom: 20px;}
+  .btn{
+    display:inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    border: 1px solid #1a5aa8;
+    color: #1a5aa8;
+    padding: 5px 12px;
+    text-decoration: none;
+    background: #fff;
+    cursor: pointer;
+  }
+  .btn:hover{background:#eef4fb;}
+  table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0 14px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+  table th, table td{
+    border: 1px solid #000;
+    padding: 6px 10px;
+    text-align: left;
+  }
+  table th{background:#f2f2f2;}
+  .detail{
+    display:none;
+    border:1px solid #999;
+    padding: 12px 14px;
+    margin: 10px 0 6px;
+    background:#fafafa;
+    font-size: 14px;
+  }
+  .detail.open{display:block;}
+  ul{margin: 6px 0 12px 20px; font-size: 15px;}
+  footer{
+    border-top: 1px solid #000;
+    padding: 14px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #444;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">EC</div>
+  <div class="titles">
+    <span class="company">Embutidos de Calidad S.A.</span> &nbsp; Cobranza y Gestión de Cartera (A/R) — Sección 6
+  </div>
+</header>
+
+<h1>Bienvenido al módulo de Cobranza y Gestión de Cartera (A/R)</h1>
+  <p class="intro">
+    Este módulo reúne el análisis de benchmarking realizado sobre el embudo de ventas de e-commerce y su
+    prueba en Odoo ERP. Responsable: Julio Rosales.
+  </p>
+
+<h2>1. Captación y Descubrimiento de Producto</h2>
+  <p>Banner de incentivo para descarga de la app móvil con descuento de Q1,000, geolocalización inicial y un menú desplegable masivo optimizado para minimizar clics hacia el producto.</p>
+  <button class="btn" onclick="document.getElementById('d1').classList.toggle('open')">Conoce más</button>
+  <div class="detail" id="d1">
+    <p><strong>Elementos clave de conversión:</strong> el banner muestra disponibilidad inmediata según la ubicación del usuario.</p>
+    <p><strong>Arquitectura de menú:</strong> el menú desplegable destaca ofertas por departamento antes de que el usuario tenga que buscarlas.</p>
+  </div>
+
+
+
+
+
+
+</body>
+</html>
